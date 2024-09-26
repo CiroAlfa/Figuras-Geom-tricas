@@ -66,3 +66,38 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ... (los estilos existentes permanecen sin cambios) */
+
+.footer-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+  font-size: 0.8rem;
+  color: #666;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer-info p {
+  margin: 2px 0;
+}

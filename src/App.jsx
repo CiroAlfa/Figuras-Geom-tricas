@@ -164,6 +164,20 @@ function App() {
           {proceso.map((paso, index) => (
             <p key={index}>Paso {index + 1}: {paso}</p>
           ))}
+
+return (
+    <div className="App">
+      <h1>Calculadora de Figuras Geométricas</h1>
+      {/* ... (el resto del contenido permanece sin cambios) */}
+      
+      <div className="footer-info">
+        <p>Ciro Montes</p>
+        <p>Análisis y Desarrollo de Software</p>
+        <p>Sena septiembre 2024</p>
+        <p>Ficha 2977501</p>
+      </div>
+    </div>
+  );
         </div>
       </div>
       {plotData.length > 0 && (
